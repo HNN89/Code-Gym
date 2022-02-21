@@ -1,0 +1,33 @@
+import turtle
+t=turtle.Turtle()
+t.pencolor("red")
+t.pensize(5)
+facesize = 200
+eyesize = 30
+t.penup()
+t.goto(0, -200)
+t.pendown()
+t.circle(facesize)
+t.fillcolor("red")
+t.penup()
+t.goto(-100,50)
+t.pendown()
+t.circle(eyesize)
+t.fillcolor("black")
+
+t.penup()
+t.goto(100,50)
+t.pendown()
+t.circle(eyesize)
+t.fillcolor("black")
+
+t.pendown()
+t.penup()
+t.goto(0,50)
+t.pendown()
+t.circle(-70, steps=3)
+t.penup()
+t.goto(-100, -70)
+t.pendown()
+t.right(90)
+t.circle(100,180)
